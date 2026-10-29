@@ -8,13 +8,25 @@
 <style>
     body{
         background-color: blue;
+        background-color: lightblue;
+        animation: changeColor 3s infinite alternate;
     }
     h1{
-      color: beige;
-      font-size: 100px; 
-      font-family: sans-serif; 
-      margin:200px 350px ;
+        color: beige;
+        font-size: 100px; 
+        font-family: sans-serif; 
+        margin:200px 350px ;
     }
+
+
+@keyframes changeColor {
+    from {
+        background-color: lightblue;
+    }
+    to {
+        background-color: pink;
+    }
+}
 </style>
 <body>
     <h1>Hello word</h1>
